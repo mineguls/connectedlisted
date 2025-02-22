@@ -1,3 +1,3 @@
-# connectedlisted
+# linkedlist
 Linuxta syslog bilgilerinin bağlı listede gösterimi:
 Bu C programı, Linux’ta /var/log/syslog dosyasını satır satır okuyarak her satırı tek yönlü bağlı listeye (singly linked list) ekler, ekrana yazdırır ve sonunda belleği temizler. Programı derlemek için gcc syslog_reader.c -o syslog_reader komutunu kullanabilir, syslog dosyasına erişim için sudo ./syslog_reader şeklinde çalıştırabilirsiniz. Bağlı liste yapısı sayesinde satır ekleme, listeyi yazdırma ve bellekten temizleme işlemleri kolayca yönetilir. Dilerseniz kodu farklı log dosyalarını okuyacak şekilde veya satır içeriğini filtreleyip işlemek üzere genişletebilirsiniz.
